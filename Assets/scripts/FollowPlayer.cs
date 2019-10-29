@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class FollowPlayer : MonoBehaviour
 {
+    public GameObject Player;
+    private Vector3 Offset = new Vector3(0, 5, -7);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Offset the camera behind the player by adding to the player's position
+        transform.position = Player. transform.position + Offset;
     }
 }
