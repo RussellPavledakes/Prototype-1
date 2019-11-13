@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  trunspeed: 40
+  trunspeed: 60
 --- !u!54 &85710463
 Rigidbody:
   m_ObjectHideFlags: 0
